@@ -13,9 +13,8 @@ services:
       - server
 
   server:
-    image: "jermorg/spudy@sha256:b308407a00a7127b18277b5a2f01daeeb499a2bef65a0c89aa51ae4abdb33602"
+    image: "jermorg/spudy@sha256:0cb77fbed3be49843e5baf83e69fa856c04f9a037a3fa9a6c7d6bc08ccea0e5e"
     container_name: spudy_server
-    user: "0:0"
     restart: always
     environment:
       - PORT=4000
