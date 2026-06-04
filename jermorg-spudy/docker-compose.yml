@@ -13,7 +13,7 @@ services:
       - server
 
   server:
-    image: "jermorg/spudy@sha256:98229256ca7f6a5a5c730e60172a8d130e26609df9e71434c9905cdc62aa1a2d"
+    image: "jermorg/spudy@sha256:97fe721c14d84520e9919ed4f36069a4977ba65607c533683ba438eda7bf759d"
     container_name: spudy_server
     restart: always
     environment:
