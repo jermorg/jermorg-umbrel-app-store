@@ -4,6 +4,6 @@ name: Spudy
 tagline: Spudy is a Telegram bot that helps you manage your Telegram groups and channels
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "3.3.0"
+version: "3.5.0"
 port: 4000
 developer: jermorg
