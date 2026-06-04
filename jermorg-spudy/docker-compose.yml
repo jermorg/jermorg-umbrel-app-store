@@ -1,12 +1,17 @@
 version: "3.7"
 
 services:
-  web:
+  app_proxy:
+    environment:
+      APP_HOST: spudy_server
+      APP_PORT: 4000
+
+  server:
     image: "jermorg/spudy:latest"
+    container_name: spudy_server
     restart: on-failure
     environment:
       - PORT=4000
-    ports:
-      - "4000:4000"
     volumes:
       - "${APP_DATA_DIR}/data:/app/data"
+
