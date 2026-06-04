@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  web:
+    image: "jermorg/spudy:latest"
+    restart: on-failure
+    environment:
+      - PORT=4000
+    ports:
+      - "4000:4000"
+    volumes:
+      - "${APP_DATA_DIR}/data:/app/data"

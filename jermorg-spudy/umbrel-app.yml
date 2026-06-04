@@ -1,0 +1,6 @@
+id: "spudy"
+name: "Spudy"
+version: "3.3.0"
+description: "Telegram to Discord Media Router."
+developer: "jermorg"
+port: 4000
