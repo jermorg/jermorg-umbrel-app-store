@@ -13,9 +13,8 @@ services:
       - server
 
   server:
-    image: "jermorg/spudy@sha256:0e43862414f6053f53b6ccdefeea49a65530e02520eb9c4bb96c68a9573300e2"
+    image: "jermorg/spudy@sha256:9e534f9a731a5fc04dfaf16a6ec1a2099103f4fab4289a1efef2c38ca2f4c14d"
     container_name: spudy_server
-    command: ["sh", "-c", "node web.js & node index.js"]
     restart: always
     environment:
       - PORT=4000
