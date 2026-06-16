@@ -7,3 +7,17 @@ category: Development
 version: "3.7.0"
 port: 4000
 developer: jermorg
+
+repo: https://github.com/jermorg/Spudy
+support: https://github.com/jermorg/Spudy/issues1
+description: >-
+  Spudy is Telegram-to-Discord Media Router
+
+  Spudy is a lightweight, self-hosted automation service designed to bridge the gap between Telegram and Discord. It intercepts media messages from Telegram and routes them to specific Discord channels using webhooks, completely controlled via a sleek web dashboard. Perfect for community managers, content creators, and self-hosted home labs running on **Umbrel OS** or native Docker environments.
+
+  ---
+
+  IT Does
+
+  Spudy listens for incoming messages on Telegram, validates the content, and instantly forwards it to your designated Discord channels. 
+  Whether you want to back up media, mirror content, or filter specific attachments, Spudy handles it dynamically without requiring a bot restart when settings change.
