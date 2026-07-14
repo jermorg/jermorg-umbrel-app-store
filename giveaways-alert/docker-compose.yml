@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app_proxy:
     image: getumbrel/app-proxy:1.7.0
-    container_name: spudy_app_proxy
+    container_name: giveaways_alert_proxy
     environment:
       APP_HOST: giveaways_alert_server
       APP_PORT: 4444
     networks:
-      - spudy_network
+      - giveaways_alert_network
     depends_on:
       - server
 
@@ -25,8 +25,8 @@ services:
     volumes:
       - "${APP_DATA_DIR}/data:/app/data"
     networks:
-      - spudy_network
+      - giveaways_alert_network
 
 networks:
-  spudy_network:
+  giveaways_alert_network:
     driver: bridge
