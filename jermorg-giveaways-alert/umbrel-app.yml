@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: giveaways-alert
+id: jermorg-giveaways-alert
 name: Giveaways Alert
 tagline: A Telegram bot and web dashboard that posts game giveaways from the GamerPower API to your channel.
 icon: https://svgur.com/i/mvA.svg
