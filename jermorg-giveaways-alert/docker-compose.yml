@@ -13,7 +13,7 @@ services:
       - server
 
   server:
-    image: "jermorg/giveaways-alert@sha256:0d6e57402833a9798a3a9e24d68190c6ae74d4fd8c5d936ab6ba62dc40202ada"
+    image: "jermorg/giveaways-alert@sha256:9e524e56883c3e7c4300c32c7516e3ad3fd2e91ba4497df645ac3fdde07a9309"
     container_name: giveaways_alert_server
     restart: always
     environment:
