@@ -4,7 +4,7 @@ name: Giveaways Alert
 tagline: A Telegram bot and web dashboard that posts game giveaways from the GamerPower API to your channel.
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "3.1.2"
+version: "3.1.1"
 port: 4444
 developer: jermorg
 
