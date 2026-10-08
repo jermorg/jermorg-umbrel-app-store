@@ -1,0 +1,8 @@
+manifestVersion: 1
+id: jermorg-nupp-google-calendar
+name: Nupp Calnedar
+icon: https://svgur.com/i/mvA.svg
+version: "1.1.0"
+developer: jermorg
+
+repo: https://github.com/jermorg/Nupp-Google-Calendar

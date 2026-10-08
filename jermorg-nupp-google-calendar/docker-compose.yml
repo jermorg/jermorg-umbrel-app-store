@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  nupp-google-calendar:
+    image: jermorg/nupp-google-calendar@sha256:f0e8800352263fca3d07eb93bf89d1e2f376c653b4b3ac5e07f71c8c297b1f9c
+    container_name: nupp-google-calendar
+    restart: unless-stopped
+    environment:
+      - CALENDAR_ID=google_calendar_id
+      - USER_NAME=portal_login
+      - USER_PASSWORD=portal_password
+      - DATE_START=2026-9-1
+      - DATE_END=2026-9-30
+    volumes:
+      - ./data:/app/data
