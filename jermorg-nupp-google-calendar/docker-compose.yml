@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   nupp-google-calendar:
-    image: jermorg/nupp-google-calendar@sha256:f0e8800352263fca3d07eb93bf89d1e2f376c653b4b3ac5e07f71c8c297b1f9c
+    image: jermorg/nupp-google-calendar@sha256:68af5cae884509e2e42d1ac45a17db21c13aa99001a8807d0a57963f2551f212
     container_name: nupp-google-calendar
     restart: unless-stopped
     environment:

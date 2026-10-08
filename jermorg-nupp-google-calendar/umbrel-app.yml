@@ -3,7 +3,7 @@ id: jermorg-nupp-google-calendar
 name: Nupp Calnedar
 tagline: Автоматичний сервіс для фонової синхронізації розкладу Полтавської політехніки (НУПП) з вашим Google Календарем.
 icon: https://svgur.com/i/mvA.svg
-version: "1.1.0"
+version: "1.1.1"
 port: 4446
 developer: jermorg
 
