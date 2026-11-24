@@ -13,11 +13,11 @@ services:
       - server
 
   server:
-    image: "jermorg/spudy@sha256:328d643b85f272d1c18e061e01480e03d66b327335f069d93859478ef3ebd5c8"
+    image: jermorg/spudy:v4.0
     container_name: spudy_server
-    restart: always
+    restart: on-failure
     environment:
-      - PORT=4000
+      - WEB_PORT=4000
     volumes:
       - "${APP_DATA_DIR}/data:/app/data"
     networks:
