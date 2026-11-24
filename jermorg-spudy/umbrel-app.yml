@@ -2,7 +2,7 @@ manifestVersion: 1
 id: jermorg-spudy
 name: Spudy
 tagline: Forward Telegram messages, media, and TikTok/Instagram videos to Discord
-icon: https://svgur.com/i/mvA.svg
+icon: https://raw.githubusercontent.com/jermorg/Spudy/main/web/img/icon.jpeg
 category: Development
 version: "4.0.0"
 port: 4000
